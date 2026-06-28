@@ -91,7 +91,7 @@ function DashboardContent() {
         <header className="flex flex-col gap-6 rounded-[2rem] bg-ink px-8 py-8 text-white shadow-panel sm:flex-row sm:items-end sm:justify-between">
           <div>
             <p className="text-sm uppercase tracking-[0.35em] text-emerald-200/80">
-              FlagFlow Control
+              Feature-Flag Control
             </p>
             <h1 className="mt-4 font-[var(--font-heading)] text-4xl font-semibold">
               Tenant administration

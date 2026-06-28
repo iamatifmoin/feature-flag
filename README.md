@@ -1,63 +1,15 @@
 # Feature-Flag
 
-FlagFlow is a multi-tenant feature flag management system with one Express backend and three independent Next.js frontends:
+Feature-Flag is a multi-tenant feature flag management system with one Express backend and three independent Next.js frontends:
 
 [Super Admin Portal - feature-flag-super-admin](https://feature-flag-pi.vercel.app)
 [Admin Portal - feature-flag-admin](https://feature-flag-admin-sigma.vercel.app)
 [User Portal - feature-flag-user](https://feature-flag-yssi.vercel.app)
 
-- `backend`: Express + TypeScript + Prisma + PostgreSQL API
-- `super-admin`: super admin console on port `3001`
-- `admin`: organization admin console on port `3002`
-- `user`: end-user feature check app on port `3003`
-
-## Roles
-
-- `super_admin`: creates organizations
-- `org_admin`: creates, updates, and deletes feature flags for their own organization
-- `end_user`: checks whether a feature is enabled for their own organization
-
-## Prerequisites
-
-- Node.js `18+`
-- PostgreSQL running locally or remotely
-
-## Setup
-
-1. Clone the repo.
-2. Backend setup:
-   `cd backend`
-   `cp .env.example .env`
-   Fill in `DATABASE_URL` and `JWT_SECRET`
-   `npm install`
-   `npm run db:migrate`
-   `npm run db:seed`
-   `npm run dev`
-3. Super-admin app:
-   `cd super-admin`
-   `npm install`
-   `npm run dev`
-   Runs on port `3001`
-4. Admin app:
-   `cd admin`
-   `npm install`
-   `npm run dev`
-   Runs on port `3002`
-5. User app:
-   `cd user`
-   `npm install`
-   `npm run dev`
-   Runs on port `3003`
-
 ## Default Super Admin Credentials
 
 - Email: `superadmin@system.com`
 - Password: `SuperAdmin@123`
-
-These are controlled by the backend environment variables:
-
-- `SUPER_ADMIN_EMAIL`
-- `SUPER_ADMIN_PASSWORD`
 
 ## Usage Flow
 

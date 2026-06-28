@@ -14,8 +14,8 @@ const headingFont = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "FlagFlow Super Admin",
-  description: "Super-admin console for FlagFlow Management SaaS"
+  title: "Feature-Flag Super Admin",
+  description: "Super-admin console for Feature-Flag Management SaaS"
 };
 
 export default function RootLayout({

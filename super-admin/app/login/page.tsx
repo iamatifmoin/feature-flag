@@ -65,7 +65,7 @@ export default function LoginPage() {
         <section className="hidden bg-ink px-10 py-12 text-white md:flex md:flex-col md:justify-between">
           <div>
             <p className="text-sm uppercase tracking-[0.35em] text-emerald-200/80">
-              FlagFlow
+              Feature-Flag
             </p>
             <h1 className="mt-6 font-[var(--font-heading)] text-4xl font-semibold leading-tight">
               Govern every tenant from one command surface.
@@ -85,7 +85,7 @@ export default function LoginPage() {
               Super Admin Login
             </p>
             <h2 className="mt-4 font-[var(--font-heading)] text-3xl font-semibold text-ink">
-              Sign in to FlagFlow
+              Sign in to Feature-Flag
             </h2>
             <p className="mt-3 text-sm leading-6 text-slate-600">
               Use the system-level credentials configured in the backend environment.

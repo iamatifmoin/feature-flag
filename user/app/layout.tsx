@@ -14,8 +14,8 @@ const headingFont = Sora({
 });
 
 export const metadata: Metadata = {
-  title: "FlagFlow User",
-  description: "End-user feature availability checker for FlagFlow"
+  title: "Feature-Flag User",
+  description: "End-user feature availability checker for Feature-Flag"
 };
 
 export default function RootLayout({
